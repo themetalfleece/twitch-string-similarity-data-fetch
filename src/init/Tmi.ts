@@ -1,5 +1,5 @@
 import { Client } from 'tmi.js';
-import { commandsAndGroupsByChannel } from '../../parameters';
+import { allChannelParameters } from '../../parameters';
 
 export class Tmi {
     public client: Client;
@@ -16,7 +16,7 @@ export class Tmi {
                 username: process.env.TWITCH_BOT_USERNAME,
                 password: process.env.TWITCH_BOT_PASSWORD,
             },
-            channels: Object.keys(commandsAndGroupsByChannel),
+            channels: Object.keys(allChannelParameters),
         });
 
         this.client.connect();
