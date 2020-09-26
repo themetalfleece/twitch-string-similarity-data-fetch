@@ -1,10 +1,4 @@
-#### This project was created using [themetalfleece/nodejs-typescript-template](https://github.com/themetalfleece/nodejs-typescript-template)
-
-# What to do after using this template
-
-1. Edit `package.json` to set the project name, version, description, and author.
-2. Edit the `LICENSE` file to use your name in the Copyright section.
-3. Delete this section from the `README.md` file.
+Uses a twitch bot to communicate with the [string-similarity-data-fetch](https://github.com/themetalfleece/string-similarity-data-fetch) server.
 
 ## Install
 

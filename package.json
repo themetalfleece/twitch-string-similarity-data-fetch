@@ -1,9 +1,9 @@
 {
-    "name": "nodejs-typescript-template",
+    "name": "twitch-string-similarity-data-fetch",
     "version": "0.0.1",
-    "description": "A template for a nodejs application, using typescript",
+    "description": "A twitch bot which sends data from a database based on their similarity with a given name",
     "main": "dist/src/index.js",
-    "author": "",
+    "author": "Jason Athanasoglou <jathanasoglou@outlook.com>",
     "license": "MIT",
     "scripts": {
         "dev": "nodemon --watch src/**/*.ts --exec ts-node ./src/app.ts",
