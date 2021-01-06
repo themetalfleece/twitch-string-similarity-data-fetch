@@ -14,7 +14,7 @@
     },
     "dependencies": {
         "@types/axios": "^0.14.0",
-        "axios": "^0.20.0",
+        "axios": "^0.21.1",
         "dotenv": "^8.2.0",
         "tmi.js": "^1.5.0"
     },
